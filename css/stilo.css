@@ -1,0 +1,168 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+#head{
+	background-color: #88FFF8;
+	width: 99.3%; 
+	height: 200px;
+	margin-top: 10px; 
+	margin-left: 10px;
+}
+
+#grande1{
+	background-color:#88C3FF ;
+	width: 99.8%; 
+	height: 400px;
+	margin-top: 5px; 
+	margin-left: 1px; 
+}
+
+
+#cuadro1{
+	background-color:#88FEFF;
+	width: 24%; 
+	height: 300px;
+	margin-top: 10px; 
+	margin-left: 12px;
+	display:inline-block; 
+}
+
+#cuadro2{
+	background-color:#88FEFF;
+	width: 24%; 
+	height: 300px;
+	margin-top: 10px; 
+	margin-left: 12px; 
+	display:inline-block; 
+}
+
+#cuadro3{
+	background-color:#88FEFF;
+	width: 24%; 
+	height: 300px;
+	margin-top: 10px; 
+	margin-left: 12px;
+	display:inline-block; 
+}
+
+#cuadro4{
+	background-color:#88FEFF;
+	width: 24%; 
+	height: 300px;
+	margin-left: 12px;
+	margin-top: 10px;
+	display:inline-block; 
+}
+#cuadro5{
+	background-color:#fff;
+	width: 24%; 
+	height: 200px;
+	margin-top: 10px; 
+	margin-left: 12px;
+	display:inline-block; 
+}
+
+#cuadro6{
+	background-color:#fff;
+	width: 24%; 
+	height: 200px;
+	margin-top: 10px; 
+	margin-left: 12px; 
+	display:inline-block; 
+}
+
+#cuadro7{
+	background-color:#fff;
+	width: 24%; 
+	height: 200px;
+	margin-top: 10px; 
+	margin-left: 12px;
+	display:inline-block; 
+}
+
+#cuadro8{
+	background-color:#fff;
+	width: 24%; 
+	height: 200px;
+	margin-left: 12px;
+	margin-top: 10px;
+	display:inline-block; 
+}
+#foot{
+	background-color: #88FFF8;
+	width: 99.1%; 
+	height: 250px;
+	margin-top: 10px; 
+	margin-left: 12px;
+	display: block; 
+}
+
+/*Uso de MEDIA QUERYS*/
+
+@media screen and (min-width: 1025px){
+
+
+#cuadro1{
+	    flex:100%;
+    }
+#cuadro2{
+	    flex:100%;
+    }
+
+#cuadro3{
+	    flex:100%;
+    }
+
+#cuadro4{
+	    flex:100%;
+    }
+
+}
+
+/*Uso de MEDIA QUERYS*/
+@media screen and (min-width: 600px) and (max-width: 1024px){
+
+#cuadro1{
+		flex:100%;
+    }
+
+#cuadro2{
+	    flex:100%;
+    }
+
+#cuadro3{
+	    flex:100%;
+    }
+
+#cuadro4{
+	    flex:100%;
+	      }
+
+}
+
+/*Uso de MEDIA QUERYS*/
+@media screen and (max-width: 599px){
+
+#cuadro1{
+		flex:100%;
+		margin-left: 12px;
+    }
+
+#cuadro2{
+	    flex:100%;
+		margin-left: 12px;
+    }
+
+#cuadro3{
+	    flex:100%;
+	    margin-left: 12px;
+    }
+
+#cuadro4{
+	    flex:100%;
+	    margin-left: 12%;
+    }
+
+}
